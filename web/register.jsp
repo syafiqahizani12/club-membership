@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gym Club Login</title>
+    <title>Register</title>
 </head>
 <body>
 
-<h2>Login</h2>
+<h2>Register</h2>
 
-<form action="loginServlet" method="post">
+<form action="registerServlet" method="post">
     Username: <input type="text" name="username" required><br><br>
     Password: <input type="password" name="password" required><br><br>
 
@@ -17,10 +17,10 @@
         <option value="manager">Gym Manager</option>
     </select><br><br>
 
-    <input type="submit" value="Login">
+    <input type="submit" value="Register">
 </form>
 
-<a href="register.jsp">Register</a>
+<a href="login.jsp">Login</a>
 
 </body>
 </html>

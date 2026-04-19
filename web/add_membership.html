@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+<head>
+    <title>Add Membership</title>
+</head>
+<body>
+
+<h2>Add Membership</h2>
+
+<form action="InsertMembershipServlet" method="post">
+    Name: <input type="text" name="studentName"><br><br>
+    
+    Plan:
+    <select name="planType">
+        <option>Basic</option>
+        <option>Premium</option>
+    </select><br><br>
+
+    Status:
+    <select name="status">
+        <option>Active</option>
+        <option>Expired</option>
+    </select><br><br>
+
+    Expiry Date:
+    <input type="date" name="expiryDate"><br><br>
+
+    <input type="submit" value="Add">
+</form>
+
+</body>
+</html>
